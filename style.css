@@ -46,7 +46,8 @@ body {
   border-top: 1px solid #2a2a2a;
 }
 
-.nav a {
+/* Top-level links */
+.nav > a {
   color: #e5e5e5;
   text-decoration: none;
   margin-left: 25px;
@@ -55,14 +56,67 @@ body {
   transition: color 0.2s ease;
 }
 
-.nav a:hover {
+.nav > a:hover {
   color: white;
 }
 
-/* Active page link */
+/* Active page */
 .nav a.active {
   color: white;
   font-weight: 600;
+}
+
+/* ===== DROPDOWN NAVIGATION ===== */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 25px;
+}
+
+/* Main dropdown button */
+.dropbtn {
+  color: #e5e5e5;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+/* Hidden dropdown menu */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background: #111;
+  min-width: 320px;
+  border: 1px solid #2a2a2a;
+  padding: 8px 0;
+  z-index: 999;
+  text-align: left;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+  display: block;
+  color: #e5e5e5;
+  padding: 10px 16px;
+  margin-left: 0;
+  font-size: 14px;
+  text-decoration: none;
+  white-space: normal;
+}
+
+/* Hover effect for dropdown links */
+.dropdown-content a:hover {
+  background: #1f1f1f;
+  color: white;
+}
+
+/* KEY: only show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 /* ===== PAGE CONTENT ===== */
@@ -118,52 +172,8 @@ section {
   padding: 40px 20px;
 }
 
-/* ===== CONTAINER (used on homepage) ===== */
+/* ===== CONTAINER (homepage) ===== */
 .container {
   max-width: 800px;
   margin: 0 auto;
-/* ===== DROPDOWN NAVIGATION ===== */
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-  margin-left: 25px;
 }
-
-.dropbtn {
-  color: #e5e5e5;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  right: 0;
-  top: 100%;
-  background: #111;
-  min-width: 280px;
-  border: 1px solid #2a2a2a;
-  padding: 10px 0;
-  z-index: 10;
-  text-align: left;
-}
-
-.dropdown-content a {
-  display: block;
-  color: #e5e5e5;
-  padding: 10px 16px;
-  margin-left: 0;
-  font-size: 14px;
-  text-decoration: none;
-}
-
-.dropdown-content a:hover {
-  background: #1f1f1f;
-  color: white;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}}
