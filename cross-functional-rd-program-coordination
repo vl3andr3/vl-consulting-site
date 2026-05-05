@@ -1,1 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Cross-functional R&amp;D Program Coordination | VL Consulting</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+
+      <div class="branding">
+        <h1>VL Consulting</h1>
+        <p>Project &amp; Strategy Consulting</p>
+      </div>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="who-we-are.html">Who We Are</a>
+
+        <div class="dropdown">
+          <a href="cross-functional-rd-program-coordination.html" class="dropbtn active">
+            VL Strategy and Projects
+          </a>
+
+          <div class="dropdown-content">
+            <a href="cross-functional-rd-program-coordination.html" class="active">Cross-functional R&amp;D Program Coordination</a>
+            <a href="portfolio-governance-milestone-planning.html">Portfolio Governance / Milestone Planning</a>
+            <a href="academic-industry-collaboration-projects.html">Academic–Industry Collaboration Projects</a>
+            <a href="temporary-program-leadership-during-transitions.html">Temporary Program Leadership During Transitions</a>
+          </div>
+        </div>
+
+        <a href="vl-tech-consulting.html">VL Tech Consulting</a>
+        <a href="vl-academic-consulting.html">VL Academic Consulting</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="page">
+
+    <section>
+      <h1>Cross-functional R&amp;D Program Coordination</h1>
+
+      <p>
+        VL Consulting helps research-driven teams align priorities, clarify ownership,
+        improve communication, and manage complex cross-functional dependencies across
+        scientific, clinical, regulatory, and commercial workstreams.
+      </p>
+
+      <ol>
+        <li>
+          <strong>Misalignment Across Functions</strong>
+          <p>
+            Scientific, clinical, regulatory, and commercial teams often operate with different priorities,
+            timelines, and definitions of success, leading to friction and slow decision-making.
+          </p>
+        </li>
+
+        <li>
+          <strong>Lack of End-to-End Program Visibility</strong>
+          <p>
+            Stakeholders don’t have a clear, unified view of progress, risks, dependencies, and timelines,
+            making it difficult to anticipate delays or intervene early.
+          </p>
+        </li>
+
+        <li>
+          <strong>Unclear Ownership and Decision-Making</strong>
+          <p>
+            Critical activities fall through the cracks when roles, responsibilities, and decision rights
+            are not clearly defined, especially across functions.
+          </p>
+        </li>
+
+        <li>
+          <strong>Poorly Managed Dependencies and Risks</strong>
+          <p>
+            Interdependencies between teams, such as preclinical → clinical → regulatory, are often
+            under-coordinated, causing downstream delays and reactive firefighting.
+          </p>
+        </li>
+
+        <li>
+          <strong>Inefficient Communication and Meeting Overload</strong>
+          <p>
+            Teams spend excessive time in meetings without clear outcomes, while key updates and decisions
+            fail to reach the right stakeholders at the right time.
+          </p>
+        </li>
+      </ol>
+    </section>
+
+  </main>
+
+</body>
+</html>
