@@ -53,56 +53,68 @@
 
 <main class="page">
 
-  <section>
-    <h1>Cross-functional R&amp;D Program Coordination</h1>
+  <section class="service-section">
+    <div class="service-intro-card">
+      <h2 class="center-title">Cross-functional R&amp;D Program Coordination</h2>
 
-    <p>
-      VL Consulting helps research-driven teams align priorities, clarify ownership,
-      improve communication, and manage complex cross-functional dependencies across
-      scientific, clinical, regulatory, and commercial workstreams.
-    </p>
+      <p>
+        VL Consulting helps research-driven teams align priorities, clarify ownership,
+        improve communication, and manage complex cross-functional dependencies across
+        scientific, clinical, regulatory, and commercial workstreams.
+      </p>
 
-    <ol>
-      <li>
-        <strong>Misalignment Across Functions</strong>
+      <p>
+        The firm solves common challenges in cross-functional R&amp;D program coordination,
+        including the five examples listed below.
+      </p>
+    </div>
+
+    <div class="challenge-grid">
+      <div class="challenge-card card-1">
+        <span class="challenge-number">1</span>
+        <h3>Misalignment Across Functions</h3>
         <p>
           Scientific, clinical, regulatory, and commercial teams often operate with different
           priorities, timelines, and definitions of success, leading to friction and slow decision-making.
         </p>
-      </li>
+      </div>
 
-      <li>
-        <strong>Lack of End-to-End Program Visibility</strong>
+      <div class="challenge-card">
+        <span class="challenge-number">2</span>
+        <h3>Lack of End-to-End Program Visibility</h3>
         <p>
           Stakeholders don’t have a clear, unified view of progress, risks, dependencies, and timelines,
           making it difficult to anticipate delays or intervene early.
         </p>
-      </li>
+      </div>
 
-      <li>
-        <strong>Unclear Ownership and Decision-Making</strong>
+      <div class="challenge-card">
+        <span class="challenge-number">3</span>
+        <h3>Unclear Ownership and Decision-Making</h3>
         <p>
           Critical activities fall through the cracks when roles, responsibilities, and decision rights
           are not clearly defined, especially across functions.
         </p>
-      </li>
+      </div>
 
-      <li>
-        <strong>Poorly Managed Dependencies and Risks</strong>
+      <div class="challenge-card">
+        <span class="challenge-number">4</span>
+        <h3>Poorly Managed Dependencies and Risks</h3>
         <p>
           Interdependencies between teams (e.g., preclinical → clinical → regulatory) are often
           under-coordinated, causing downstream delays and reactive firefighting.
         </p>
-      </li>
+      </div>
 
-      <li>
-        <strong>Inefficient Communication and Meeting Overload</strong>
+      <div class="challenge-card">
+        <span class="challenge-number">5</span>
+        <h3>Inefficient Communication and Meeting Overload</h3>
         <p>
           Teams spend excessive time in meetings without clear outcomes, while key updates and decisions
           fail to reach the right stakeholders at the right time.
         </p>
-      </li>
-    </ol>
+      </div>
+    </div>
 
   </section>
 
