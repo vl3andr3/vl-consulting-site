@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# VL Consulting
 
-## Getting Started
+Marketing site for **VL Consulting** — independent project, program, and strategic consulting at the intersection of science, technology, and innovation. Led by Vé Léandre, Ph.D.
 
-First, run the development server:
+Built with **Next.js (App Router) + TypeScript + Tailwind CSS**, deployed on Vercel.
+
+## Local development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev      # http://localhost:3000
+npm run build    # production build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Editing content
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Almost everything is data-driven — you rarely touch page code:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **`lib/site.ts`** — site name, tagline, **email**, **booking calendar link**, **LinkedIn**, site URL, and the top navigation.
+- **`lib/content.ts`** — all page copy: home hero, the About bio, Who We Are, and every service / sub-service page (intro + cards).
 
-## Learn More
+To change the email, calendar link, or live URL, edit `lib/site.ts`.
 
-To learn more about Next.js, take a look at the following resources:
+## Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `app/` — routes (home, about, who-we-are, strategy-and-projects + sub-services, tech-and-ai, academic, contact) plus `sitemap.ts`, `robots.ts`, and the OG image.
+- `components/` — Header (with mobile menu), Footer, ServicePage template, CTA buttons, etc.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## SEO
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Per-page metadata, `sitemap.xml`, `robots.txt`, Open Graph image, and JSON-LD structured data (`ProfessionalService` + `Person`) are built in. After the first deploy: verify the site in Google Search Console and submit the sitemap.
