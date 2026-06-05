@@ -68,6 +68,21 @@ Service/sub-service page content maps 1:1 from the existing HTML (the numbered "
 - **Secondary:** "Email me" → `mailto:veridaleandre@gmail.com` (opens visitor's own mail client; acknowledged tradeoff — upgrade to a real form later).
 - Both appear on `/contact` and in the footer; booking CTA also in header / hero.
 
+## 7b. SEO & organic-traffic foundations
+
+Bake on-site SEO in from the start so the site is eligible to rank organically:
+
+- **Per-page metadata:** unique `<title>` + meta description for every route (Next.js Metadata API).
+- **Semantic HTML & headings:** one `<h1>` per page, logical heading order, descriptive link text, `alt` on all images.
+- **Crawlability:** `sitemap.xml` and `robots.txt` (Next.js `sitemap.ts` / `robots.ts`).
+- **Structured data (JSON-LD):** `ProfessionalService` for VL Consulting + `Person` for Vé Léandre (credentials, employers, services). Helps Google/AI understand the entity.
+- **Social/share cards:** Open Graph + Twitter meta + an OG image.
+- **Performance & mobile:** fast Core Web Vitals, mobile-first (Next.js defaults + image optimization).
+- **Keyword-aware copy:** weave natural search terms (e.g. "R&D program management consultant", "AI consulting", "academic–industry collaboration") into headings/copy during the copywriting pass — without keyword-stuffing.
+- **Canonical URLs** set per page.
+
+**Post-launch (Vé/Alex, not blocking build):** verify in Google Search Console, submit sitemap, create a Google Business Profile, and add content over time. Optional later: privacy-friendly analytics (e.g. Vercel Analytics / Plausible).
+
 ## 8. Deployment & access
 
 - **GitHub:** authenticate as Vé via `gh auth login`; create a **new repo** under `vl3andr3` (proposed name `vl-consulting`).
