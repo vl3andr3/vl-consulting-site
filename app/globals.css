@@ -1,1 +1,47 @@
 @import "tailwindcss";
+
+/*
+  Tailwind v4 design tokens (defined via @theme so they generate utilities like
+  bg-paper, text-ink, text-accent, font-serif, max-w-content, etc.).
+  Fonts are wired through CSS variables set by next/font in app/layout.tsx.
+*/
+@theme {
+  --color-paper: #f7f4ef; /* warm off-white background */
+  --color-ink: #1a1a1a; /* near-black text */
+  --color-accent: #0e5c56; /* deep teal */
+  --color-accent-dark: #0a413d;
+  --color-muted: #6b6660;
+
+  --font-serif: var(--font-serif-src), ui-serif, Georgia, serif;
+  --font-sans: var(--font-sans-src), ui-sans-serif, system-ui, sans-serif;
+
+  --max-width-content: 72rem;
+}
+
+@layer base {
+  body {
+    @apply bg-paper text-ink font-sans antialiased;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-serif font-semibold tracking-tight;
+  }
+  a {
+    @apply transition-colors;
+  }
+}
+
+@layer utilities {
+  .fade-in {
+    opacity: 0;
+    transform: translateY(16px);
+    transition:
+      opacity 0.6s ease,
+      transform 0.6s ease;
+  }
+  .fade-in.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+}
