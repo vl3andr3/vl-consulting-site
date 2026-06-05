@@ -264,8 +264,8 @@ export const services: Record<string, ServiceContent> = {
 // ---------------------------------------------------------------------------
 
 export const home = {
-  heroTitle:
-    "Strategy and execution at the intersection of science, technology, and innovation.",
+  heroTitleLead: "Strategy and execution at the intersection of ",
+  heroTitleAccent: "science, technology, and innovation.",
   heroSub:
     "Independent project, program, and strategic support for research-driven organizations — from portfolio governance to AI integration.",
   pillars: [
@@ -355,5 +355,23 @@ export const strategyOverview = {
       body: "Maintain momentum, stabilize teams, and ensure continuity during leadership gaps, organizational change, or periods of transition.",
       href: "/strategy-and-projects/interim-program-leadership",
     },
+  ],
+};
+
+export const about = {
+  name: "Vé Léandre, Ph.D.",
+  role: "Founder, VL Consulting",
+  lead: "I'm Vé Léandre — a project and strategy consultant who helps research-driven organizations turn complex, high-stakes work into clear plans and steady execution.",
+  paragraphs: [
+    "My career has moved across the full arc of scientific innovation. At Genentech (Roche Group), I worked embedded in teams spanning the product life cycle — from research and development through product development and commercial strategy — helping lead and coordinate complex, multi-million-dollar programs. At Brown University and the Providence VA Medical Center, I managed international and academic–industry collaborations and worked closely with a technology ventures office on the legal and operational side of the patenting process.",
+    "That mix gives me a real feel for the coordination, governance, and strategic challenges organizations face on both sides of the academic–industry line. More recently, I've supported international AI firms on rubric design, model evaluation, and assessing generative AI performance on complex STEM, imaging, and reasoning tasks.",
+    "I work independently and pragmatically. Engagements are remote and contract-based, for Dutch, American, and international clients. Whether it's interim program leadership, portfolio governance, or bringing AI into a team's workflow, the focus is the same: clarity, momentum, and decisions that hold up.",
+  ],
+  highlights: [
+    "Ph.D. — scientific research & innovation",
+    "Genentech (Roche Group) — full product life cycle",
+    "Brown University & Providence VA Medical Center",
+    "AI model evaluation & benchmarking",
+    "Teaching & mentorship across STEM",
   ],
 };

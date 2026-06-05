@@ -1,7 +1,8 @@
-"use client";
-
-import { useEffect, useRef, useState } from "react";
-
+/*
+  Lightweight entrance-animation wrapper. The animation lives entirely in CSS
+  (.fade-in in globals.css) with a visible end state, so content is never
+  dependent on JS or scroll position to appear. No client runtime needed.
+*/
 export default function FadeIn({
   children,
   className = "",
@@ -9,28 +10,5 @@ export default function FadeIn({
   children: React.ReactNode;
   className?: string;
 }) {
-  const ref = useRef<HTMLDivElement>(null);
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    const io = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setVisible(true);
-          io.disconnect();
-        }
-      },
-      { threshold: 0.12 },
-    );
-    io.observe(el);
-    return () => io.disconnect();
-  }, []);
-
-  return (
-    <div ref={ref} className={`fade-in ${visible ? "is-visible" : ""} ${className}`}>
-      {children}
-    </div>
-  );
+  return <div className={`fade-in ${className}`}>{children}</div>;
 }

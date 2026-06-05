@@ -4,9 +4,11 @@ export const site = {
   url: "https://vl-consulting.vercel.app", // update if a custom domain is added
   email: "veridaleandre@gmail.com",
   calendar: "https://calendar.app.google/Drhrc5AK8LYHmF137",
+  linkedin: "https://www.linkedin.com/in/veridaleandre",
   description:
     "Independent project, program, and strategic consulting at the intersection of science, technology, and innovation. Led by Vé Léandre, Ph.D. — R&D program management, AI consulting, and academic–industry collaboration.",
   nav: [
+    { label: "About", href: "/about" },
     { label: "Who We Are", href: "/who-we-are" },
     {
       label: "Strategy & Projects",
