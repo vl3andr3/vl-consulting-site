@@ -267,7 +267,7 @@ export const home = {
   heroTitle:
     "Strategy and execution at the intersection of science, technology, and innovation.",
   heroSub:
-    "VL Consulting provides independent project, program, and strategic support to research-driven organizations — spanning portfolio governance, cross-functional R&D program management, academic–industry collaboration, interim leadership, and AI consulting.",
+    "Independent project, program, and strategic support for research-driven organizations — from portfolio governance to AI integration.",
   pillars: [
     {
       title: "Strategy & Projects",

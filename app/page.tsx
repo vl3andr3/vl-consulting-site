@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import FadeIn from "@/components/FadeIn";
 import CTAButtons from "@/components/CTAButtons";
 import PillarCard from "@/components/PillarCard";
@@ -15,19 +16,34 @@ export default function Home() {
   return (
     <main>
       {/* Hero */}
-      <section className="mx-auto max-w-content px-6 pb-16 pt-20 md:pt-28">
-        <FadeIn>
-          <p className="text-sm font-semibold uppercase tracking-[0.18em] text-accent">
-            {site.tagline}
-          </p>
-          <h1 className="mt-5 max-w-4xl text-4xl leading-[1.1] md:text-6xl">
-            {home.heroTitle}
-          </h1>
-          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted">
-            {home.heroSub}
-          </p>
-          <CTAButtons className="mt-9" size="lg" />
-        </FadeIn>
+      <section className="mx-auto max-w-content px-6 pb-16 pt-16 md:pt-24">
+        <div className="grid items-center gap-10 md:grid-cols-2 md:gap-14">
+          <FadeIn>
+            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-accent">
+              {site.tagline}
+            </p>
+            <h1 className="mt-5 text-4xl leading-[1.1] md:text-5xl lg:text-6xl">
+              {home.heroTitle}
+            </h1>
+            <p className="mt-6 max-w-md text-lg leading-relaxed text-muted">
+              {home.heroSub}
+            </p>
+            <CTAButtons className="mt-9" size="lg" />
+          </FadeIn>
+
+          <FadeIn>
+            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-ink/10 shadow-xl shadow-ink/5">
+              <Image
+                src="/images/boardroom.jpg"
+                alt="Modern boardroom with floor-to-ceiling windows and a conference table"
+                fill
+                priority
+                sizes="(max-width: 768px) 100vw, 50vw"
+                className="object-cover"
+              />
+            </div>
+          </FadeIn>
+        </div>
       </section>
 
       {/* Credibility strip */}

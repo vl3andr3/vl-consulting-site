@@ -8,8 +8,8 @@
 @theme {
   --color-paper: #f7f4ef; /* warm off-white background */
   --color-ink: #1a1a1a; /* near-black text */
-  --color-accent: #0e5c56; /* deep teal */
-  --color-accent-dark: #0a413d;
+  --color-accent: #1e40af; /* jewel-tone sapphire */
+  --color-accent-dark: #172a78;
   --color-muted: #6b6660;
 
   --font-serif: var(--font-serif-src), ui-serif, Georgia, serif;
