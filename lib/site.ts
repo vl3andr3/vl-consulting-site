@@ -8,7 +8,6 @@ export const site = {
   description:
     "Independent project, program, and strategic consulting at the intersection of science, technology, and innovation. Led by Vé Léandre, Ph.D. — R&D program management, AI consulting, and academic–industry collaboration.",
   nav: [
-    { label: "About", href: "/about" },
     { label: "Who We Are", href: "/who-we-are" },
     {
       label: "Strategy & Projects",

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import FadeIn from "@/components/FadeIn";
 import CTAButtons from "@/components/CTAButtons";
+import LinkedName from "@/components/LinkedName";
 import { whoWeAre } from "@/lib/content";
 
 export const metadata: Metadata = {
@@ -27,7 +28,9 @@ export default function Page() {
                 {c.label}
               </span>
               <h2 className="mt-3 text-xl">{c.title}</h2>
-              <p className="mt-3 leading-relaxed text-muted">{c.body}</p>
+              <p className="mt-3 leading-relaxed text-muted">
+                <LinkedName text={c.body} />
+              </p>
             </article>
           </FadeIn>
         ))}

@@ -1,24 +1,26 @@
 import Link from "next/link";
 import Wordmark from "./Wordmark";
 import CTAButtons from "./CTAButtons";
+import LinkedName from "./LinkedName";
 import { site } from "@/lib/site";
 
 export default function Footer() {
   const year = new Date().getFullYear();
+  const explore = [...site.nav, { label: "About", href: "/about" }];
   return (
     <footer className="mt-auto border-t border-ink/10 bg-paper">
       <div className="mx-auto grid max-w-content gap-10 px-6 py-14 md:grid-cols-[1.5fr_1fr_1.2fr]">
         <div>
           <Wordmark />
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted">
-            {site.description}
+            <LinkedName text={site.description} />
           </p>
         </div>
 
         <nav aria-label="Footer">
           <h2 className="text-sm font-semibold text-ink">Explore</h2>
           <ul className="mt-4 space-y-2 text-sm">
-            {site.nav.map((item) => (
+            {explore.map((item) => (
               <li key={item.href}>
                 <Link href={item.href} className="text-muted hover:text-accent">
                   {item.label}
