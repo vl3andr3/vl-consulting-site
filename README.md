@@ -1,6 +1,6 @@
-# VL Consulting
+# Verisans Consulting
 
-Marketing site for **VL Consulting** — independent project, program, and strategic consulting at the intersection of science, technology, and innovation. Led by Vé Léandre, Ph.D.
+Marketing site for **Verisans Consulting** — independent project, program, and strategic consulting at the intersection of science, technology, and innovation. Led by Vé Léandre, Ph.D.
 
 Built with **Next.js (App Router) + TypeScript + Tailwind CSS**, deployed on Vercel.
 

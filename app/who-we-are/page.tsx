@@ -8,7 +8,7 @@ import { whoWeAre } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Who We Are",
   description:
-    "VL Consulting is led by Vé Léandre, Ph.D. — project management and strategy experience from Genentech (Roche Group), Brown University, and the Providence VA Medical Center, spanning R&D, AI, and education.",
+    "Verisans Consulting is led by Vé Léandre, Ph.D. — project management and strategy experience from Genentech (Roche Group), Brown University, and the Providence VA Medical Center, spanning R&D, AI, and education.",
   alternates: { canonical: "/who-we-are" },
 };
 
@@ -45,7 +45,7 @@ export default function Page() {
           >
             Strategy &amp; Projects case areas
           </Link>
-          , or learn how VL Consulting works with{" "}
+          , or learn how Verisans Consulting works with{" "}
           <Link
             href="/tech-and-ai"
             className="font-semibold text-accent hover:text-accent-dark"

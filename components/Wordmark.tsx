@@ -5,7 +5,7 @@ export default function Wordmark({ compact = false }: { compact?: boolean }) {
   return (
     <Link href="/" className="flex items-center gap-3 group" aria-label={site.name}>
       <span className="font-serif text-3xl font-bold tracking-tighter text-ink leading-none transition-colors group-hover:text-accent">
-        VL
+        V
       </span>
       {!compact && (
         <span className="leading-tight">

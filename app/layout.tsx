@@ -63,7 +63,7 @@ const orgLd = {
     honorificSuffix: "Ph.D.",
     jobTitle: "Project & Strategy Consultant",
     alumniOf: ["Brown University"],
-    worksFor: { "@type": "Organization", name: "VL Consulting" },
+    worksFor: { "@type": "Organization", name: "Verisans Consulting" },
   },
   knowsAbout: [
     "R&D program management",

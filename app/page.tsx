@@ -55,7 +55,7 @@ export default function Home() {
       {/* Pillars */}
       <section className="mx-auto max-w-content px-6 py-20">
         <FadeIn>
-          <h2 className="text-3xl md:text-4xl">How VL Consulting helps</h2>
+          <h2 className="text-3xl md:text-4xl">How Verisans Consulting helps</h2>
           <p className="mt-4 max-w-2xl text-muted">
             Three connected practice areas, backed by experience across industry,
             academia, and emerging technology.

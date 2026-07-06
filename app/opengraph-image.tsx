@@ -37,7 +37,7 @@ export default function OpengraphImage() {
               lineHeight: 1,
             }}
           >
-            VL
+            V
           </div>
           <div
             style={{

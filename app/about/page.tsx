@@ -6,7 +6,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "About Vé Léandre",
   description:
-    "Meet Vé Léandre, Ph.D. — founder of VL Consulting. Experience across Genentech (Roche Group), Brown University, the Providence VA, AI model evaluation, and STEM teaching and mentorship.",
+    "Meet Vé Léandre, Ph.D. — founder of Verisans Consulting. Experience across Genentech (Roche Group), Brown University, the Providence VA, AI model evaluation, and STEM teaching and mentorship.",
   alternates: { canonical: "/about" },
 };
 
@@ -22,7 +22,7 @@ export default function AboutPage() {
               className="flex h-24 w-24 items-center justify-center rounded-2xl bg-accent text-paper"
             >
               <span className="font-serif text-3xl font-bold tracking-tight">
-                VL
+                V
               </span>
             </div>
 

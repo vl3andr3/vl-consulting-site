@@ -1,5 +1,5 @@
 export const site = {
-  name: "VL Consulting",
+  name: "Verisans Consulting",
   tagline: "Project & Strategy Consulting",
   url: "https://vl-consulting.vercel.app", // update if a custom domain is added
   email: "veridaleandre@gmail.com",

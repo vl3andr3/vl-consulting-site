@@ -25,7 +25,7 @@ export const services: Record<string, ServiceContent> = {
     metaDescription:
       "AI consulting and machine learning advisory: model optimization, evaluation and benchmarking, AI integration, data-driven process improvement, and AI strategy for research-driven organizations.",
     intro: [
-      "VL Consulting helps organizations strengthen AI-enabled workflows, improve machine learning model performance, and translate emerging digital capabilities into practical business and operational value.",
+      "Verisans Consulting helps organizations strengthen AI-enabled workflows, improve machine learning model performance, and translate emerging digital capabilities into practical business and operational value.",
       "Engagements span five core areas of technology and AI consulting.",
     ],
     cards: [
@@ -65,7 +65,7 @@ export const services: Record<string, ServiceContent> = {
     metaDescription:
       "Teaching, tutoring, mentoring, curriculum support, and educational advising in scientific, technical, and analytical disciplines — from biomedical engineering to research methods and scientific communication.",
     intro: [
-      "VL Consulting provides teaching, tutoring, mentoring, curriculum support, and educational advising for students, universities, and educational organizations working across scientific, technical, and analytical disciplines.",
+      "Verisans Consulting provides teaching, tutoring, mentoring, curriculum support, and educational advising for students, universities, and educational organizations working across scientific, technical, and analytical disciplines.",
       "Services draw on experience teaching and supporting learners across K–12, undergraduate, graduate, and advanced academic settings — including biomedical engineering, polymer science, drug delivery, research methods, and scientific communication.",
     ],
     cards: [
@@ -105,8 +105,8 @@ export const services: Record<string, ServiceContent> = {
     metaDescription:
       "R&D program management that aligns scientific, clinical, regulatory, and commercial workstreams — clarifying ownership, improving visibility, and managing cross-functional dependencies.",
     intro: [
-      "VL Consulting helps research-driven teams align priorities, clarify ownership, improve communication, and manage complex cross-functional dependencies across scientific, clinical, regulatory, and commercial workstreams.",
-      "Below are five common challenges in cross-functional R&D program coordination — and the friction VL Consulting is engaged to resolve.",
+      "Verisans Consulting helps research-driven teams align priorities, clarify ownership, improve communication, and manage complex cross-functional dependencies across scientific, clinical, regulatory, and commercial workstreams.",
+      "Below are five common challenges in cross-functional R&D program coordination — and the friction Verisans Consulting is engaged to resolve.",
     ],
     cards: [
       {
@@ -145,8 +145,8 @@ export const services: Record<string, ServiceContent> = {
     metaDescription:
       "Structured governance models, clear milestone frameworks, and decision gates that align execution with strategy and enable effective portfolio oversight.",
     intro: [
-      "VL Consulting supports organizations in establishing structured governance models, clear milestone frameworks, and decision-making processes that align execution with strategy and enable effective portfolio oversight.",
-      "Below are five common challenges in portfolio governance and milestone planning that VL Consulting helps resolve.",
+      "Verisans Consulting supports organizations in establishing structured governance models, clear milestone frameworks, and decision-making processes that align execution with strategy and enable effective portfolio oversight.",
+      "Below are five common challenges in portfolio governance and milestone planning that Verisans Consulting helps resolve.",
     ],
     cards: [
       {
@@ -185,8 +185,8 @@ export const services: Record<string, ServiceContent> = {
     metaDescription:
       "Structuring, coordinating, and managing academic–industry collaboration so partners align expectations, clarify responsibilities, and translate shared goals into executable project plans.",
     intro: [
-      "VL Consulting supports organizations in structuring, coordinating, and managing academic–industry collaborations so partners can align expectations, clarify responsibilities, and translate shared goals into executable project plans.",
-      "Below are five common challenges in academic–industry collaboration projects that VL Consulting helps resolve.",
+      "Verisans Consulting supports organizations in structuring, coordinating, and managing academic–industry collaborations so partners can align expectations, clarify responsibilities, and translate shared goals into executable project plans.",
+      "Below are five common challenges in academic–industry collaboration projects that Verisans Consulting helps resolve.",
     ],
     cards: [
       {
@@ -225,8 +225,8 @@ export const services: Record<string, ServiceContent> = {
     metaDescription:
       "Interim program leadership that maintains momentum, stabilizes teams, and ensures continuity during leadership gaps, organizational change, or periods of transition.",
     intro: [
-      "VL Consulting provides interim program leadership to maintain momentum, stabilize teams, and ensure continuity during leadership gaps, organizational change, or periods of transition.",
-      "Below are five common challenges encountered during leadership transitions that VL Consulting helps address.",
+      "Verisans Consulting provides interim program leadership to maintain momentum, stabilize teams, and ensure continuity during leadership gaps, organizational change, or periods of transition.",
+      "Below are five common challenges encountered during leadership transitions that Verisans Consulting helps address.",
     ],
     cards: [
       {
@@ -301,22 +301,22 @@ export const home = {
 
 export const whoWeAre = {
   intro:
-    "VL Consulting provides independent project management and strategic consulting services to organizations across the technology, life sciences, and education sectors. The firm supports the planning, coordination, and execution of R&D projects, clinical and operational programs, innovation initiatives, process improvement efforts, and AI-enabled transformation. Services are delivered on a self-employed basis to Dutch, American, and international clients — primarily through remote consulting, contract-based engagements, and teaching.",
+    "Verisans Consulting provides independent project management and strategic consulting services to organizations across the technology, life sciences, and education sectors. The firm supports the planning, coordination, and execution of R&D projects, clinical and operational programs, innovation initiatives, process improvement efforts, and AI-enabled transformation. Services are delivered on a self-employed basis to Dutch, American, and international clients — primarily through remote consulting, contract-based engagements, and teaching.",
   cards: [
     {
       label: "Profile",
       title: "Project Management & Strategy Experience",
-      body: "VL Consulting is led by Vé Léandre, Ph.D., whose experience spans project management, portfolio strategy, scientific innovation, and cross-functional coordination. At Genentech (Roche Group), she was embedded in teams spanning the full product life cycle — from research and development to product development and commercial strategy — navigating and leading complex, multi-million-dollar projects and initiatives. At Brown University and the Providence VA Medical Center, she managed international and academic–industry collaborations and gained exposure to the legal and operational aspects of the patenting process through work with the technology ventures office. This combined experience supports a deep understanding of the coordination, governance, and strategic challenges organizations face across both industry and academic environments.",
+      body: "Verisans Consulting is led by Vé Léandre, Ph.D., whose experience spans project management, portfolio strategy, scientific innovation, and cross-functional coordination. At Genentech (Roche Group), she was embedded in teams spanning the full product life cycle — from research and development to product development and commercial strategy — navigating and leading complex, multi-million-dollar projects and initiatives. At Brown University and the Providence VA Medical Center, she managed international and academic–industry collaborations and gained exposure to the legal and operational aspects of the patenting process through work with the technology ventures office. This combined experience supports a deep understanding of the coordination, governance, and strategic challenges organizations face across both industry and academic environments.",
     },
     {
       label: "Perspective",
       title: "AI, Innovation & Human-Centered Technology",
-      body: "VL Consulting approaches AI as a powerful tool for innovation, discovery, communication, and organizational transformation. Paired with human-centered design, originality, and responsible implementation, AI can help organizations improve how they analyze information, solve problems, and create value. Vé's experience includes planning tech workshops and conferences, organizing thought leaders in the San Francisco innovation community, contributing to work at the intersection of accessibility and breakthrough technology, and supporting international AI firms through rubric design, model evaluation, and assessment of generative AI performance on complex STEM, imaging, and reasoning tasks.",
+      body: "Verisans Consulting approaches AI as a powerful tool for innovation, discovery, communication, and organizational transformation. Paired with human-centered design, originality, and responsible implementation, AI can help organizations improve how they analyze information, solve problems, and create value. Vé's experience includes planning tech workshops and conferences, organizing thought leaders in the San Francisco innovation community, contributing to work at the intersection of accessibility and breakthrough technology, and supporting international AI firms through rubric design, model evaluation, and assessment of generative AI performance on complex STEM, imaging, and reasoning tasks.",
     },
     {
       label: "Education",
       title: "Teaching, Tutoring & Mentorship",
-      body: "Education has been central to Vé's work from a young age, continuing through undergraduate study, graduate school, and professional scientific training. VL Consulting offers teaching, tutoring, and mentoring support for advanced learners in scientific, technical, biomedical, and analytical disciplines. Areas of teaching expertise include biomedical engineering, polymer science, tissue engineering and biomimicry, drug delivery and bioabsorption, research methods, scientific communication, and statistical analysis.",
+      body: "Education has been central to Vé's work from a young age, continuing through undergraduate study, graduate school, and professional scientific training. Verisans Consulting offers teaching, tutoring, and mentoring support for advanced learners in scientific, technical, biomedical, and analytical disciplines. Areas of teaching expertise include biomedical engineering, polymer science, tissue engineering and biomimicry, drug delivery and bioabsorption, research methods, scientific communication, and statistical analysis.",
     },
   ],
 };
@@ -327,7 +327,7 @@ export const whoWeAre = {
 
 export const strategyOverview = {
   intro: [
-    "VL Consulting provides project, program, and strategic support to organizations operating at the intersection of science, technology, and innovation.",
+    "Verisans Consulting provides project, program, and strategic support to organizations operating at the intersection of science, technology, and innovation.",
     "Strategy & Projects engagements span four focused practice areas — from cross-functional R&D program management to interim leadership during transitions.",
   ],
   cards: [
@@ -360,7 +360,7 @@ export const strategyOverview = {
 
 export const about = {
   name: "Vé Léandre, Ph.D.",
-  role: "Founder, VL Consulting",
+  role: "Founder, Verisans Consulting",
   lead: "I'm Vé Léandre — a project and strategy consultant who helps research-driven organizations turn complex, high-stakes work into clear plans and steady execution.",
   paragraphs: [
     "My career has moved across the full arc of scientific innovation. At Genentech (Roche Group), I worked embedded in teams spanning the product life cycle — from research and development through product development and commercial strategy — helping lead and coordinate complex, multi-million-dollar programs. At Brown University and the Providence VA Medical Center, I managed international and academic–industry collaborations and worked closely with a technology ventures office on the legal and operational side of the patenting process.",

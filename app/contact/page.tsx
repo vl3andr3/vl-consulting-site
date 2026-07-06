@@ -5,7 +5,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Book a consultation with VL Consulting or reach out by email. Remote, contract-based engagements for Dutch, American, and international clients.",
+    "Book a consultation with Verisans Consulting or reach out by email. Remote, contract-based engagements for Dutch, American, and international clients.",
   alternates: { canonical: "/contact" },
 };
 
