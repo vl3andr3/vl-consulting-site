@@ -2,7 +2,7 @@ export const site = {
   name: "Verisans Consulting",
   tagline: "Project & Strategy Consulting",
   url: "https://vl-consulting.vercel.app", // update if a custom domain is added
-  email: "veridaleandre@gmail.com",
+  email: "Ve@Verisans.com",
   calendar: "https://calendar.app.google/Drhrc5AK8LYHmF137",
   linkedin: "https://www.linkedin.com/in/veridaleandre",
   description:

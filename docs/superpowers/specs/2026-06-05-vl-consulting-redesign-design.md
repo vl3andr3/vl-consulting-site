@@ -65,7 +65,7 @@ Service/sub-service page content maps 1:1 from the existing HTML (the numbered "
 ## 7. Contact
 
 - **Primary CTA:** "Book a consultation" → `https://calendar.app.google/Drhrc5AK8LYHmF137`
-- **Secondary:** "Email me" → `mailto:veridaleandre@gmail.com` (opens visitor's own mail client; acknowledged tradeoff — upgrade to a real form later).
+- **Secondary:** "Email me" → `mailto:Ve@Verisans.com` (opens visitor's own mail client; acknowledged tradeoff — upgrade to a real form later).
 - Both appear on `/contact` and in the footer; booking CTA also in header / hero.
 
 ## 7b. SEO & organic-traffic foundations
