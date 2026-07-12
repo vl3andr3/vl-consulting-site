@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { site } from "@/lib/site";
 
 export default function CTAButtons({
@@ -18,12 +19,12 @@ export default function CTAButtons({
       >
         Book a consultation
       </a>
-      <a
-        href={`mailto:${site.email}`}
+      <Link
+        href="/contact"
         className={`rounded-full border border-ink/20 ${pad} font-semibold text-ink hover:border-ink`}
       >
-        Email me
-      </a>
+        Send a message
+      </Link>
     </div>
   );
 }

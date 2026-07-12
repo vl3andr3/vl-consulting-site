@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import FadeIn from "@/components/FadeIn";
 import CTAButtons from "@/components/CTAButtons";
 import PillarCard from "@/components/PillarCard";
@@ -91,12 +92,12 @@ export default function Home() {
               >
                 Book a consultation
               </a>
-              <a
-                href={`mailto:${site.email}`}
+              <Link
+                href="/contact"
                 className="rounded-full border border-paper/40 px-7 py-4 text-base font-semibold text-paper hover:border-paper"
               >
-                Email me
-              </a>
+                Send a message
+              </Link>
             </div>
           </FadeIn>
         </div>

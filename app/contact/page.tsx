@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import CTAButtons from "@/components/CTAButtons";
 import { site } from "@/lib/site";
+import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Book a consultation with Verisans Consulting or reach out by email. Remote, contract-based engagements for Dutch, American, and international clients.",
+    "Book a consultation with Verisans Consulting or send a message. Remote, contract-based engagements for Dutch, American, and international clients.",
   alternates: { canonical: "/contact" },
 };
 
@@ -16,23 +16,30 @@ export default function Page() {
         <h1 className="text-4xl md:text-5xl">Let&rsquo;s work together</h1>
         <p className="mt-6 text-lg leading-relaxed text-muted">
           The best way to start is a short consultation. Book a time that suits
-          you, or send a note describing your project and what you&rsquo;d like to
-          achieve. Engagements are remote and contract-based, for Dutch, American,
-          and international clients.
+          you, or send a note below describing your project and what you&rsquo;d
+          like to achieve. Engagements are remote and contract-based, for Dutch,
+          American, and international clients.
         </p>
 
-        <CTAButtons className="mt-10" size="lg" />
-
-        <p className="mt-8 text-sm text-muted">
-          Prefer email? Reach Vé directly at{" "}
+        <div className="mt-10">
           <a
-            href={`mailto:${site.email}`}
-            className="font-semibold text-accent hover:text-accent-dark"
+            href={site.calendar}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block rounded-full bg-accent px-7 py-4 text-base font-semibold text-paper hover:bg-accent-dark"
           >
-            {site.email}
+            Book a consultation
           </a>
-          .
-        </p>
+        </div>
+
+        <div className="mt-12 border-t border-ink/10 pt-10">
+          <h2 className="text-2xl">Send a message</h2>
+          <p className="mt-3 text-muted">
+            Prefer to write? Fill in the form and it&rsquo;ll land straight in
+            Vé&rsquo;s inbox.
+          </p>
+          <ContactForm />
+        </div>
       </div>
     </main>
   );

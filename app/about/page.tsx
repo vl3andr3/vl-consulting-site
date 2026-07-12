@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import FadeIn from "@/components/FadeIn";
 import { about } from "@/lib/content";
 import { site } from "@/lib/site";
@@ -17,14 +18,14 @@ export default function AboutPage() {
         {/* Identity card */}
         <FadeIn>
           <div className="md:sticky md:top-28">
-            <div
-              aria-hidden
-              className="flex h-24 w-24 items-center justify-center rounded-2xl bg-accent text-paper"
-            >
-              <span className="font-serif text-3xl font-bold tracking-tight">
-                V
-              </span>
-            </div>
+            <Image
+              src="/ve-leandre.jpg"
+              alt={about.name}
+              width={480}
+              height={480}
+              priority
+              className="aspect-square w-full max-w-[240px] rounded-2xl object-cover"
+            />
 
             <h1 className="mt-6 text-3xl md:text-4xl">{about.name}</h1>
             <p className="mt-1 text-muted">{about.role}</p>

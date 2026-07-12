@@ -33,16 +33,10 @@ export default function Footer() {
         <div>
           <h2 className="text-sm font-semibold text-ink">Work together</h2>
           <p className="mt-4 text-sm text-muted">
-            Book a consultation or reach out by email — engagements are remote and
+            Book a consultation or send a message — engagements are remote and
             contract-based.
           </p>
           <CTAButtons className="mt-5" />
-          <a
-            href={`mailto:${site.email}`}
-            className="mt-4 inline-block text-sm text-muted hover:text-accent"
-          >
-            {site.email}
-          </a>
         </div>
       </div>
 
