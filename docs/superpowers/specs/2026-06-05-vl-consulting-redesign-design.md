@@ -64,7 +64,7 @@ Service/sub-service page content maps 1:1 from the existing HTML (the numbered "
 
 ## 7. Contact
 
-- **Primary CTA:** "Book a consultation" → `https://calendar.app.google/Drhrc5AK8LYHmF137`
+- **Primary CTA:** "Book a consultation" → `https://calendar.proton.me/bookings#vi7GyrlXSX1cFdjuR7iXu6S6s6RnTW-2IHDDhuEsQHM=`
 - **Secondary:** "Email me" → `mailto:Ve@Verisans.com` (opens visitor's own mail client; acknowledged tradeoff — upgrade to a real form later).
 - Both appear on `/contact` and in the footer; booking CTA also in header / hero.
 
