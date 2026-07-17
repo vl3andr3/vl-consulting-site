@@ -94,7 +94,7 @@ export const site = {
   tagline: "Project & Strategy Consulting",
   url: "https://vl-consulting.vercel.app", // update if custom domain added
   email: "Ve@Verisans.com",
-  calendar: "https://calendar.app.google/Drhrc5AK8LYHmF137",
+  calendar: "https://calendar.proton.me/bookings#vi7GyrlXSX1cFdjuR7iXu6S6s6RnTW-2IHDDhuEsQHM=",
   description:
     "Independent project, program, and strategic consulting at the intersection of science, technology, and innovation. Led by Vé Léandre, Ph.D.",
   nav: [
